@@ -1,0 +1,103 @@
+.home-container{
+    padding: 10px;
+    background-image: url(./123.jpg);
+    background-size: cover;
+    gap: 20px;
+}
+
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-nav button {
+    margin: 5px;
+}
+
+.home-inner-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+
+/* Home.css */
+.about-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    gap: 15px;
+    background: transparent;
+}
+
+.about-content {
+    background: transparent;
+    color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    
+    color: white;
+}
+
+.about-section p {
+    font-size: 18px;
+    background: transparent;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Add more styling to make it colorful and user-friendly */
+.about-content p:nth-child(odd) {
+    
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.about-content p:nth-child(even) {
+    
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Style headings, links, and buttons */
+.about-content a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.about-content a:hover {
+    color: #0053a1;
+}
+
+.about-content button {
+    background-color: #ff9933;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.about-content button:hover {
+    background-color: #ff8000;
+}
+
+
+
+
+

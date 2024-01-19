@@ -1,0 +1,39 @@
+.main-menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background: transparent;
+}
+
+
+
+.menu-item-container {
+    margin: 2px;
+    text-align: center;
+    color: red;
+    background-color: lightgreen;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.menu-item-container img {
+    width: 100%;
+    height: 240px;
+    object-fit: fill;
+}
+
+.menu-item-title {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #334155;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+
+.menu-item-price {
+    font-size: 16px;
+    background-color: aliceblue !important;
+    color: red;
+    font-weight: bold;
+}
